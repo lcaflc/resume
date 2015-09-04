@@ -1,16 +1,22 @@
-all: index.html index.pdf index.docx index.txt
+NAME=resume.md
 
-index.html: index.md style.css
-	pandoc --standalone -c style.css --from markdown --to html -o index.html index.md
+PANDOC=pandoc
+TOPDF=wkhtmltopdf
+RM=rm -fv
 
-index.pdf: index.html
-	wkhtmltopdf index.html index.pdf
+all: clean html pdf docx txt
 
-index.docx: index.md
-	pandoc --from markdown --to docx -o index.docx index.md
+html: $(NAME) style.css
+	$(PANDOC) --standalone -c style.css --from markdown --to html -o $(NAME:.md=.html) $(NAME)
 
-index.txt: index.md
-	pandoc --standalone --smart --from markdown --to plain -o index.txt index.md
+pdf: html
+	$(TOPDF) $(NAME:.md=.html) $(NAME:.md=.pdf)
+
+docx: $(NAME)
+	$(PANDOC) --from markdown --to docx -o $(NAME:.md=.docx) $(NAME)
+
+txt: $(NAME)
+	$(PANDOC) --standalone --smart --from markdown --to plain -o $(NAME:.md=.txt) $(NAME)
 
 clean:
-	rm -f *.html *.pdf *.docx *.txt
+	-$(RM) *~ *.html *.pdf *.docx *.txt
