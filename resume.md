@@ -1,132 +1,93 @@
-Christophe-Marie Duquesne
-=========================
+Laurent CORBES
+==============
 
 ----
 
->  Specialties: C++, Python, Linux, Operations Research\
->  Doctor in Computer Science and Mathematics
+>  Specialist of GNU/Linux OS (Debian, Ubuntu), Cloud solutions,
+>  High Available and Scalable infrastructures.
+>
 
 ----
+
+Knowledges
+----------
+
+
+
+
 
 Corporate Experience
 --------------------
 
-Since 2013
-:   *Data Scientist for [Airconomy](https://www.airconomy.com/)*
-    (Frankfurt am Main, Germany).
+Since January 2015
+:   *Architect C4M solutions, **Arkena** (http://www.arkena.com/).*
 
-    Data mining on various sources to forecast passenger demands over
-    airline networks.
+    Design Arkena new Cloud4Media product called Harmony. An orchestrator service aimed at processing Media contents.
+    Based on a BPMN 2.0 technology, ESB message bus and SOA architecture it allows to easily define and run complex media workflows in heterogeneous environments.
 
-2009-2012
-:   *PhD in Operations Research with
-    [Amadeus](http://www.amadeus.com/amadeus/amadeus.html)* (Sophia
-    Antipolis, France).
+November 2013 - January 2015
+:   *Senior System and Network engineer, **Arkena** (http://www.arkena.com/).*
 
-    Researched how to assign aircraft on an airline network in the most
-    efficient way. I authored several projects, including a C++ solver,
-    a Python suite of 20+ command line tools, and Hadoop data mining
-    scripts. I also worked as a teaching assistant at the university,
-    further improving my communication and public speaking skills.
+    FIXME
 
-2008 (3 months)
-:   *Internship at [Rio Tinto Alcan](http://www.riotintoalcan.com/)*
-    (Clermont Ferrand, France).
+September 2012 - November 2013
+:   *Manager Operation infrastructure team, **SmartJog** (http://www.smartjog.com/).*
 
-    Co-authored a C++ library for optimizing the revenue of a metal
-    factory. This work was published in the corporate journal of the
-    company.
+    FIXME
 
-2007 (3 months)
-:   *Internship at [GE
-    Healthcare](http://www3.gehealthcare.com/en/Global_Gateway)* (Paris,
-    France).
+March 2011 - September 2012
+:   *Project and architect manager, **SmartJog** (http://www.smartjog.com/).*
 
-    Elaborated an UML spec for the refactoring of 20.000 lines of C++.
+    Management of projects aimed to develop SmartJog technologies to other TDF (http://www.tdf.fr/) subsidiaries. Mainly extend CDN services to several European countries (Finland, Germany, Hungary). SmartJog provided a managed CDN platform to other companies that run it (kind of CDN as a Service).
 
-Selected Open Source Contributions
-----------------------------------
+    Define and manage integration of SmartJog CDN services with partners CDNs. In order to provide an extended network coverage and better user experience we integrate with internal FAI CDNs. A redirector router based on client informations securely redirect the request to the best edge server. Either our own network shortest edge or a partner one.
 
-Python
-:   Contributor to [pulp-or](http://code.google.com/p/pulp-or/), a
-    linear programming Python library. Author of small tools, like
-    [michel](https://github.com/chmduquesne/michel), a command line
-    program providing bidirectionnal synchronization of google tasks
-    with text files.
 
-C++
-:   Author of
-    [yaposib](http://yaposib.readthedocs.org/en/latest/index.html), a
-    Python binding to COIN-OSI that is now supported by
-    [pulp-or](http://code.google.com/p/pulp-or/).
 
-C
-:   Author of
-    [lazylpsolverlibs](https://code.google.com/p/lazylpsolverlibs/), a
-    set of proxy libraries targeting cplex, gurobi and xpress. I also
-    started writing
-    [sharebox](https://github.com/chmduquesne/sharebox-fs), a
-    distributed FUSE file system based on git.
+January 2004 - March 2011
+:   *System and Network Engineer, **SmartJog** (http://www.smartjog.com/).*
 
-Java
-:   Author of [talkmyphone](http://code.google.com/p/talkmyphone/), an
-    android application allowing phone control via gtalk. It had 10.000+
-    downloads, and was forked 50 times. It was then successfully handed
-    over to [other developers](http://code.google.com/p/gtalksms/).
+    Administration of the SmartJog Delivery platform. This include maintenance of a 40 servers production platform on debian GNU/Linux hosting databases, vpn servers, tomcat application servers, moniroting systems and delivery software systems.
 
-Misc
-:   Lua, Ada, Bash, Makefile, m4, autotools, cmake... See my [github
-    résumé](http://resume.github.com/?chmduquesne). My
-    [kudorank](http://meta.ohloh.net/kudos/) on ohloh is 9, among the
-    top 2% of opensource developers.
+    Maintainer of the SmartJog RXTX receiver. This is an appliance product based on Debian GNU/Linux distribution tuned with our specific software, installation system, vpn infrastructure and remote monitoring capabilities.
 
-Linux
-:   My daily operating system: I [blog](http://blog.chmd.fr) about it
-    sometimes.
+    Software developer on SmartJog Acceleratted transfer software (RBC) version 2. Add several features to improve our performances: multi connections, bandwidth limitation, checkpoints.
+
+    Engineering and administration of a satellite IP delivery infrastructure. We run our own transponders on Intelsat satellites sky. Using DVB-S2 protocol we operate up to 200Mbps of satelite network capacity worldwide.
+
+    Engineering and administration of a redundant, secure and replicated storage solution for long term archive of Media contents. The service offer 1PetaByte of capacity replicated between Paris and Los Angeles. It is optimized in order to store big files (+30GB) and periodically check contents checksum to ensure reliability.
+
+    Engineering of a private Cloud hosting service. Based on Xen it hosted all SmartJog infrastructure allowing us to make or platform flexible to fullfill our expended needs. In 2010 it aggregate 30 Xen hypervisors hosting ~250 Vms. It then evolve to Linux/KVM solution.
+
+    Engineering of a Content Delivery Network infrastructure. SmartJog acquire TV-radio.com and develop it's own CDN to replace Akamai. It provided the following services (mp3 live streaming (icecast), http acceleration (nginx), flash live streaming (ffserver), flash OD streaming (lighttpd mod_flv + mod_mp4)).
+
+October 2002 - December 2003
+:   *System administrator, **Dolphian** (http://www.dolphian.com/).*
+
+    Administration of a 10 servers production platform running FreeBSD and Debian GNU/Linux.
+
+    Creation of a Certificate Authority and associated PKI that allowed automatic creation and distribution of SSL Certificates for a secure proxy service.
+
 
 Education
 ---------
 
-2009-2012
-:   *PhD in Mathematics and Computer Science at G-SCOP Laboratory*
-    (Grenoble, France).
+1999-2004
+:   *Epita (http://www.epita.fr)*
 
-    Title: Integration of Fleet Deployment and of Passenger Service in
-    Airline Schedule Management. Done at Amadeus, in the Operation
-    Research team led by [Semi
-    Gabteni](http://www.linkedin.com/in/semigabteni). Advisors: [Denis
-    Naddef](http://www.g-scop.inpg.fr/~naddefd/), [Olivier
-    Briant](http://www.g-scop.inpg.fr/~brianto/index.php?page=1).
-    Defended in January 2013.
-
-2005-2009
-:   *MS in Computer Science in ENSIMAG* (Grenoble, France).
-
-    Top French school of Applied Mathematics and Computer Science with
-    highly selective recruitment.
-
-2002-2005
-:   *Preparatory classes in Lycée Thiers* (Marseille, France).
-
-    Mathematics and Physics courses before a national competitive
-    examination to Grandes Écoles.
+    Graduate Engineer in computer science.
+    SRSA (System, Network, Security and Architect) branch.
 
 Activities and interests
 ------------------------
 
 Hobbies
-:   I like travelling. I backpacked in 13 countries in Eastern Europe
-    and South East Asia.
+:
 
 Sports
-:   Running, Cycling, Hiking. I also played rugby union for 7 years.
-
-Activities
-:   I was the president of the [grand
-    cercle](http://www.grandcercle.org), one of the largest French
-    campus student associations (5.000 members) during university.
+:
 
 ----
 
-> <chmd@chmd.fr> • +336 84 14 26 82 • 28 years old\
->  275, chemin du Petit Castel - 13100 Aix en Provence, FRANCE
+> <lc@glot.net> • Paris - FRANCE • 35 years old
+> github: lcaflc, twitter: @lcaflc
