@@ -13,7 +13,7 @@ Laurent CORBES
 Knowledges
 ----------
 
-
+FIXME: software, programming langagues, services, cloud systems, etc...
 
 
 
@@ -92,9 +92,7 @@ Activities and interests
 
 Hobbies
 :
-
-Sports
-:
+ FIXME: sport (sometimes), video games, reading
 
 ----
 
