@@ -26,12 +26,15 @@ Since January 2015
     Software Architect and Tech leader of Arkena new Cloud4Media product called Harmony. An orchestrator service designed to help media company to build and run complex Media contents workflows.
     It's a Service Oriented Architecture built using an Enterprise Service Bus that route REST APIs messages between a BPMN 2.0 workflow engine, micro services and external systems. This design allow an easy integration of our service into heterogeneous client environments.
 
-    FIXME: projets (architect, deployment) TraceTV et TF1 and C+
+    Architect on Arkena OTT (Over The Top) projects. Technical study of the project with client and project manager;  Definition of the development requirements. Engineering of the technical infrastructure: network interconnections, cloud resources (servers, network, storage), technical systems (transcoders, storages, ...). Design of Harmony workflows driving the OTT service backend, transformation of client mezzanine media, publishing on CDN networks and report of informations to client backoffice systems.
 
 November 2013 - January 2015
 :   *Senior System and Network engineer, **Arkena** (http://www.arkena.com/).*
 
-    FIXME: DB service (mysql, postgresql), pop installation and engineering.
+    Engineering of a cloud native Database Service. Support Mysql and Postgresql backends. Built to be highly available on several POPs using BGP, load balancing services, streaming replication between databases and database proxy systems. The service totaly abstract to users the internal complexity by giving them a single database endpoint (user/password@url@db) and we allocate a place in a server cluster depending on needed resources by the database.
+
+    Deployment and Engineering of Arkena POPs infrastructure in industrial way. Design standard rack installation methods and schema; simple management access and sharing, management portal for ressources allocation. Migration of existing hardware and POPs to new models.
+
 
 September 2012 - November 2013
 :   *Manager Operation infrastructure team, **SmartJog** (http://www.smartjog.com/).*
