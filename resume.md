@@ -31,6 +31,8 @@ Since January 2015
 November 2013 - January 2015
 :   *Senior System and Network engineer, **Arkena** (http://www.arkena.com/).*
 
+    SmartJog, QBrick, PSN and Cognacq-Jay Image merge in April 2014 and become Arkena.
+
     Engineering of a cloud native Database Service. Support Mysql and Postgresql backends. Built to be highly available on several POPs using BGP, load balancing services, streaming replication between databases and database proxy systems. The service totaly abstract to users the internal complexity by giving them a single database endpoint (user/password@url@db) and we allocate a place in a server cluster depending on needed resources by the database.
 
     Deployment and Engineering of Arkena POPs infrastructure in industrial way. Design standard rack installation methods and schema; simple management access and sharing, management portal for ressources allocation. Migration of existing hardware and POPs to new models.
@@ -93,9 +95,9 @@ Education
 Activities and interests
 ------------------------
 
-Hobbies
-:
- FIXME: sport (sometimes), video games, reading
+**Sports**, Practice (not enough) mountain bike and tennis.
+
+**Motorsport fan**, never miss a 24Hours of LeMans race.
 
 ----
 
