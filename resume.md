@@ -4,7 +4,8 @@ Laurent CORBES
 ----
 
 >  Specialist of GNU/Linux OS (Debian, Ubuntu), Cloud solutions,
->  High Available and Scalable infrastructures.
+>  Virtualisation, Storage solutions, High Available and Scalable infrastructures.
+>  Media Streaming technologies.
 >
 
 ----
@@ -22,18 +23,28 @@ Corporate Experience
 Since January 2015
 :   *Architect C4M solutions, **Arkena** (http://www.arkena.com/).*
 
-    Design Arkena new Cloud4Media product called Harmony. An orchestrator service aimed at processing Media contents.
-    Based on a BPMN 2.0 technology, ESB message bus and SOA architecture it allows to easily define and run complex media workflows in heterogeneous environments.
+    Software Architect and Tech leader of Arkena new Cloud4Media product called Harmony. An orchestrator service designed to help media company to build and run complex Media contents workflows.
+    It's a Service Oriented Architecture built using an Enterprise Service Bus that route REST APIs messages between a BPMN 2.0 workflow engine, micro services and external systems. This design allow an easy integration of our service into heterogeneous client environments.
+
+    FIXME: projets (architect, deployment) TraceTV et TF1 and C+
 
 November 2013 - January 2015
 :   *Senior System and Network engineer, **Arkena** (http://www.arkena.com/).*
 
-    FIXME
+    FIXME: DB service (mysql, postgresql), pop installation and engineering.
 
 September 2012 - November 2013
 :   *Manager Operation infrastructure team, **SmartJog** (http://www.smartjog.com/).*
 
-    FIXME
+    Management of the team operating the Cloud infrastructure of SmarJog. It cover the installation and management of all the assets (server, storage and network). The SmartJog cloud is composed of 12 POPs in Europe and United States.
+
+    Operation of global network, private fiber and public AS43646 IP network interconnected on several public and private IP peerings and multiple Tier1 operators IP transits.
+
+    Deployement and Operation of the Cloud service with more than 400 hypervisors and 100 more physical servers. Running Linux/KVM Virtualisation software and our own management stack based on libvirt on top of it (CloudControl).
+
+    Maintenance of the base infrastructure services provided to other SmartJog and TDF services: DNS root and resolvers, Email infrastructure, internal networks interconnections and firewall, Web Hosting service, Geolocalised Load balancing services.
+
+    Level3 support and expertise on all company services (CDN, Transfer, ...)
 
 March 2011 - September 2012
 :   *Project and architect manager, **SmartJog** (http://www.smartjog.com/).*
@@ -41,8 +52,6 @@ March 2011 - September 2012
     Management of projects aimed to develop SmartJog technologies to other TDF (http://www.tdf.fr/) subsidiaries. Mainly extend CDN services to several European countries (Finland, Germany, Hungary). SmartJog provided a managed CDN platform to other companies that run it (kind of CDN as a Service).
 
     Define and manage integration of SmartJog CDN services with partners CDNs. In order to provide an extended network coverage and better user experience we integrate with internal FAI CDNs. A redirector router based on client informations securely redirect the request to the best edge server. Either our own network shortest edge or a partner one.
-
-
 
 January 2004 - March 2011
 :   *System and Network Engineer, **SmartJog** (http://www.smartjog.com/).*
