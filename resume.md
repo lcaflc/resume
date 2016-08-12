@@ -5,16 +5,44 @@ Laurent CORBES
 
 >  Specialist of GNU/Linux OS (Debian, Ubuntu), Cloud solutions,
 >  Virtualisation, Storage solutions, High Available and Scalable infrastructures.
->  Media Streaming technologies.
->
+>  12 years of experiences in Media Streaming technologies.
 
 ----
 
 Knowledges
 ----------
 
-FIXME: software, programming langagues, services, cloud systems, etc...
+Programming Languages
+:   Started learning development in C and C++. Now fluent in Python and bourne script (BASH).
 
+    Hack a few html, javascript, java and any other language when needed.
+
+    Will learn GOlang soon.
+
+Technologies
+:   cloud infrastructures using Linux/KVM, Xen, Docker Containers.
+
+    complex network with BGP, Anycast, Multicast, Vlans, Vpns.
+
+    HA services using layer2: VRRRP, CARP; layer 4/7: Haproxy, IPVS, ...
+
+    internet services: dns, smtp, ntp, http, firewalling, ...
+
+    storage technologies: NAS, SAN, ISCSI, Object storage.
+
+Operating Systems
+:   Debian GNU/Linux expert, runned \*BSD and Solaris systems a few years.
+
+    Windows because it comes to you.
+
+Softwares
+:   Most httpd daemons: apache, lighttpd, nginx.
+
+    Databases: PostgreSQL, MySQL, MongoDB.
+
+    Storages: Samba, NFS, FTP, Rsync.
+
+    Too much other stuff.
 
 
 Corporate Experience
