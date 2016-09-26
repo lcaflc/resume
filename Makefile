@@ -10,7 +10,7 @@ html: $(NAME) style.css
 	$(PANDOC) --standalone -c style.css --from markdown --to html -o $(NAME:.md=.html) $(NAME)
 
 pdf: html
-	$(TOPDF) $(NAME:.md=.html) $(NAME:.md=.pdf)
+	$(TOPDF) -d 300 $(NAME:.md=.html) $(NAME:.md=.pdf)
 
 docx: $(NAME)
 	$(PANDOC) --from markdown --to docx -o $(NAME:.md=.docx) $(NAME)

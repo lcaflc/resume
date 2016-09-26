@@ -5,7 +5,7 @@ Laurent CORBES
 
 >  Specialist of GNU/Linux OS (Debian, Ubuntu), Cloud solutions,
 >  Virtualisation, Storage solutions, High Available and Scalable infrastructures.
->  12 years of experiences in Media Streaming technologies.
+>  12 years of experiences in Media industry and Streaming technologies.
 
 ----
 
@@ -30,13 +30,15 @@ Technologies
 
     storage technologies: NAS, SAN, ISCSI, Object storage.
 
+    OTT streaming protocols: MPEG-DASH, SMOOTH streaming, HLS, DRMs ...
+
 Operating Systems
 :   Debian GNU/Linux expert, runned \*BSD and Solaris systems a few years.
 
-    Windows because it comes to you.
+    Windows when you need to.
 
 Softwares
-:   Most httpd daemons: apache, lighttpd, nginx.
+:   Most http daemons: apache, lighttpd, nginx.
 
     Databases: PostgreSQL, MySQL, MongoDB.
 
@@ -48,22 +50,22 @@ Softwares
 Corporate Experience
 --------------------
 
-Since January 2015
+January 2015 - September 2016
 :   *Architect C4M solutions, **Arkena** (http://www.arkena.com/).*
 
-    Software Architect and Tech leader of Arkena new Cloud4Media product called Harmony. An orchestrator service designed to help media company to build and run complex Media contents workflows.
-    It's a Service Oriented Architecture built using an Enterprise Service Bus that route REST APIs messages between a BPMN 2.0 workflow engine, micro services and external systems. This design allow an easy integration of our service into heterogeneous client environments.
+    Software Architect and Tech leader of Arkena new Cloud4Media product called Harmony. An orchestrator service designed to help media company build and run complex Media related content workflows.
+    It's a Service Oriented Architecture built using an Enterprise Service Bus that route REST APIs messages between a BPMN 2.0 workflow engine, micro services and external systems. This design allow an easy integration of this service into heterogeneous client environments.
 
-    Architect on Arkena OTT (Over The Top) projects. Technical study of the project with client and project manager;  Definition of the development requirements. Engineering of the technical infrastructure: network interconnections, cloud resources (servers, network, storage), technical systems (transcoders, storages, ...). Design of Harmony workflows driving the OTT service backend, transformation of client mezzanine media, publishing on CDN networks and report of informations to client backoffice systems.
+    Architect on Arkena OTT (Over The Top) projects. Technical study of the projects with client and project manager;  Definition of the development requirements. Engineering of the technical infrastructure: network interconnections, cloud resources (servers, network, storage), technical systems (transcoders, storages, ...). Design of Harmony workflows driving the OTT service backend, transformation of client mezzanine media, publishing on CDN networks and report of informations to client backoffice systems.
 
 November 2013 - January 2015
 :   *Senior System and Network engineer, **Arkena** (http://www.arkena.com/).*
 
     SmartJog, QBrick, PSN and Cognacq-Jay Image merge in April 2014 and become Arkena.
 
-    Engineering of a cloud native Database Service. Support Mysql and Postgresql backends. Built to be highly available on several POPs using BGP, load balancing services, streaming replication between databases and database proxy systems. The service totaly abstract to users the internal complexity by giving them a single database endpoint (user/password@url@db) and we allocate a place in a server cluster depending on needed resources by the database.
+    Engineering of a cloud native Database Service. Support Mysql and Postgresql backends. Built to be highly available on several POPs using BGP, load balancing services, streaming replication between databases and database proxy systems. The service totaly abstract to users the internal complexity by giving them a single database endpoint (user/password@url@db) and ops allocate a place in a server cluster depending on needed resources by the database.
 
-    Deployment and Engineering of Arkena POPs infrastructure in industrial way. Design standard rack installation methods and schema; simple management access and sharing, management portal for ressources allocation. Migration of existing hardware and POPs to new models.
+    Deployment and Engineering of Arkena POPs infrastructure in industrial way. Design standard rack installation methods and schema; simplify remote management of systems, management portal for ressources allocation. Migration of existing hardware and POPs to newer standard models.
 
 
 September 2012 - November 2013
@@ -71,7 +73,7 @@ September 2012 - November 2013
 
     Management of the team operating the Cloud infrastructure of SmarJog. It cover the installation and management of all the assets (server, storage and network). The SmartJog cloud is composed of 12 POPs in Europe and United States.
 
-    Operation of global network, private fiber and public AS43646 IP network interconnected on several public and private IP peerings and multiple Tier1 operators IP transits.
+    Operation of global network: private fiber MPLS network and public AS43646 IP network interconnected on several public and private IP peerings and multiple Tier1 operators IP transits.
 
     Deployement and Operation of the Cloud service with more than 400 hypervisors and 100 more physical servers. Running Linux/KVM Virtualisation software and our own management stack based on libvirt on top of it (CloudControl).
 
@@ -80,9 +82,9 @@ September 2012 - November 2013
     Level3 support and expertise on all company services (CDN, Transfer, ...)
 
 March 2011 - September 2012
-:   *Project and architect manager, **SmartJog** (http://www.smartjog.com/).*
+:   *Project manager and architect, **SmartJog** (http://www.smartjog.com/).*
 
-    Management of projects aimed to develop SmartJog technologies to other TDF (http://www.tdf.fr/) subsidiaries. Mainly extend CDN services to several European countries (Finland, Germany, Hungary). SmartJog provided a managed CDN platform to other companies that run it (kind of CDN as a Service).
+    Management of projects aimed to develop SmartJog technologies to other TDF (http://www.tdf.fr/) subsidiaries. Mainly extend CDN services to several European countries (Finland, Germany, Hungary). SmartJog provided a managed CDN platform to other companies that run it (kind of CDN as a Service offer).
 
     Define and manage integration of SmartJog CDN services with partners CDNs. In order to provide an extended network coverage and better user experience we integrate with internal FAI CDNs. A redirector router based on client informations securely redirect the request to the best edge server. Either our own network shortest edge or a partner one.
 
